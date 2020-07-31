@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Comments from './Comments';
+import Ajout_comments from './Ajout_comments';
 
 
 
@@ -24,8 +24,9 @@ const Posts = ({posts}) => {
                         {/* <img class="photo_poisson" src= */}{post.photo_poisson}{/*  alt="snif" */} {/* alt="snif"></img> */}
                         </div> <br/>
                         <div className="comm">
+
                             <h5>Vos commentaires:</h5>{post.comments.map((com) => ( 
-                            <p>{com.nom_auteur_c} {com.nom_auteur_c} <br/>
+                            <p>{com.prenom_auteur_c} {com.nom_auteur_c} <br/>
                             {com.contenu}</p>))}
                             </div>
                             

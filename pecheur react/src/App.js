@@ -1,7 +1,6 @@
 
 import React,{ Component } from 'react';
 import Posts from './posts';
-/* import Comments from './comments' */
 import './App.css';
 import { render } from '@testing-library/react';
 
