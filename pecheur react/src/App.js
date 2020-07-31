@@ -23,7 +23,6 @@ class App extends Component
     return(
 
     <Posts posts={this.state.posts} />)
-/*     <Comments comments={this.state.comments}/> */
   }
 }
 
