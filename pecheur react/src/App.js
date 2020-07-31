@@ -12,7 +12,7 @@ class App extends Component
 
   }
   componentDidMount() {
-    fetch('http://127.0.0.1:8001/api/post')
+    fetch('http://127.0.0.1:8000/api/post')
     .then(res => res.json())
     .then((data) => {
       this.setState({ posts: data })

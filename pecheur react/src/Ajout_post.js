@@ -23,7 +23,7 @@ class Ajout_post extends Component
 
     Ajout_post= (e) => {
         e.preventDefault()
-        Axios.post('http://127.0.0.1:8001/api/post',{
+        Axios.post('http://127.0.0.1:8000/api/post',{
         nom_auteur_p: this.state.nom_auteur_p,
         prenom_auteur_p: this.state.prenom_auteur_p,
         poids_poisson: this.state.poids_poisson,

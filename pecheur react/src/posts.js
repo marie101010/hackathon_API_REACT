@@ -17,6 +17,7 @@ const Posts = ({posts}) => {
                         <p>Poids: {post.poids_poisson} kg</p>  
                         <p>Taille: {post.taille_poisson} cm</p>
                         <p><u>Péché par:</u> {post.prenom_auteur_p} {post.nom_auteur_p}</p>
+                        
                         <h5 class="card-subtitle mb-2 text-muted">{post.details}</h5>
                             <div className="img">
                             {/* <img class="photo_poisson" src= */}{post.photo_poisson}{/*  alt="snif" */} {/* alt="snif"></img> */}
